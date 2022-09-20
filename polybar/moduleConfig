@@ -1,0 +1,5 @@
+[module/usbip-indicator]
+type = custom/script
+interval = 2
+exec = ~/.local/binusbipExport.sh info
+click-left = ~/.local/bin/usbipExport.sh toggle
